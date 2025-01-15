@@ -4,18 +4,6 @@ This project is a Selenium-based automation framework for testing an e-commerce 
 
 ---
 
-## Table of Contents
-1. [Project Overview](#project-overview)
-2. [Features](#features)
-3. [Prerequisites](#prerequisites)
-4. [Setup Instructions](#setup-instructions)
-5. [Running the Tests](#running-the-tests)
-6. [Project Structure](#project-structure)
-7. [Contributing](#contributing)
-8. [License](#license)
-
----
-
 ## Project Overview
 
 This project automates the following user workflows:
