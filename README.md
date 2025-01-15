@@ -1,21 +1,29 @@
-Project Overview
+# Selenium Automation Project
+
+This project is a Selenium-based automation framework for testing an e-commerce application. It includes test cases for logging in, adding products to the cart, selecting a country, and placing an order. The framework is built using **Java**, **Selenium WebDriver**, and **TestNG**.
+
+---
+
+## Table of Contents
+1. [Project Overview](#project-overview)
+2. [Features](#features)
+3. [Prerequisites](#prerequisites)
+4. [Setup Instructions](#setup-instructions)
+5. [Running the Tests](#running-the-tests)
+6. [Project Structure](#project-structure)
+7. [Contributing](#contributing)
+8. [License](#license)
+
+---
+
+## Project Overview
+
 This project automates the following user workflows:
+1. **Login**: Validates user login functionality.
+2. **Add Product to Cart**: Adds a product to the cart and verifies it.
+3. **Select Country**: Selects a country during the checkout process.
+4. **Place Order**: Completes the order placement and verifies the thank-you page.
 
-Login: Validates user login functionality.
+The framework uses the **Page Object Model (POM)** design pattern to make the code modular, reusable, and easy to maintain.
 
-Add Product to Cart: Adds a product to the cart and verifies it.
-
-Select Country: Selects a country during the checkout process.
-
-Place Order: Completes the order placement and verifies the thank-you page.
-
-The framework uses the Page Object Model (POM) design pattern to make the code modular, reusable, and easy to maintain.
-
-Features
-Page Object Model (POM): Ensures clean separation between test logic and page-specific code.
-
-TestNG: Provides robust test execution, reporting, and parallel testing capabilities.
-
-Reusable Base Class: Centralizes common setup and teardown logic.
-
-Extensible: Easy to add new test cases or modify existing ones.
+---
